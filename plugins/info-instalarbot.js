@@ -2,15 +2,15 @@ const handler = async (m, {conn, usedPrefix}) => {
   const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const text = `*—◉ 𝚃𝚄𝚃𝙾𝚁𝙸𝙰𝙻 𝙱𝙾𝚇𝙼𝙸𝙽𝙴 𝙷𝙾𝚂𝚃*
-> Tutorial: https://youtu.be/eC9TfKICpcY
+> Tutorial: https://youtu.be/e
 > Pagina Oficial: https://boxmineworld.com
 > Dashboard: https://dash.boxmineworld.com/home
 > Panel: https://panel.boxmineworld.com
-> Soporte: https://discord.gg/84qsr4v 
+> Soporte: https://discord 
 
 ------------------------------------
 —◉ 𝚃𝚄𝚃𝙾𝚁𝙸𝙰𝙻-𝚃𝙴𝚁𝙼𝚄𝚇
-> https://youtu.be/yRS4m36Zwkw
+> https://YouTube
 
 ------------------------------------
 
@@ -19,7 +19,7 @@ const handler = async (m, {conn, usedPrefix}) => {
 - cd && termux-setup-storage
 - apt-get update -y && apt-get upgrade -y
 - pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn 
-- git clone https://github.com/BrunoSobrino/TheMystic-Bot-MD.git && cd TheMystic-Bot-MD
+- git clone https://github.com/onyxBot-MD.git && cd onyx-Bot-MD
 - yarn install
 - npm install
 - npm update
@@ -29,20 +29,20 @@ const handler = async (m, {conn, usedPrefix}) => {
 
 —◉ ✔️ ACTIVAR EN CASO DE DETENERSE EN TERMUX ✔️
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd TheMystic-Bot-MD
+> cd onyx-Bot-MD
 > npm start
 
 ------------------------------------
 
 —◉ 👽 OBTENER OTRO CODIGO QR EN TERMUX 👽
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd TheMystic-Bot-MD
+> cd onyx-MD
 > rm -rf MysticSession
 > npm start`.trim();
   const buttonMessage= {
-    'document': {url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`},
+    'document': {url: `https://github.com/onyxBot-MD.git`},
     'mimetype': `application/${document}`,
-    'fileName': `「  𝑯𝒆𝒍𝒍𝒐 𝑾𝒐𝒓𝒍𝒅 」`,
+    'fileName': `「  onyx 」`,
     'fileLength': 99999999999999,
     'pageCount': 200,
     'contextInfo': {
@@ -52,7 +52,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
         'mediaUrl': 'https://github.com/BrunoSobrino/TheMystic-Bot-MD',
         'mediaType': 2,
         'previewType': 'pdf',
-        'title': 'ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩',
+        'title': 'ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ onyx⁩',
         'body': wm,
         'thumbnail': imagen1,
         'sourceUrl': 'https://www.youtube.com/channel/UCSTDMKjbm-EmEovkygX-lCA'}},
