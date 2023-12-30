@@ -10,7 +10,7 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['5219992095479', '👑 Mystic - Creador 👑', true],
+  ['51907269769', '👑 onyx - Creador 👑', true],
   ['50499698072', '💫 Mystic - Collaborator 1 💫', true],
   ['51940617554', '💫 Mystic - Collaborator 2 💫', true],
   ['51996089079', '💫 Mystic - Collaborator 3 💫', true],
@@ -39,11 +39,11 @@ global.suittag = ['5219993404349'];
 global.prems = ['51995386439'];
 
 global.packname = 'Sticker';
-global.author = 'The Mystic - Bot';
-global.wm = 'The Mystic - Bot';
-global.titulowm = 'The Mystic - Bot';
-global.titulowm2 = `The Mystic - Bot`
-global.igfg = 'The Mystic - Bot';
+global.author = 'onyx - Bot';
+global.wm = 'onyx - Bot';
+global.titulowm = 'onyx - Bot';
+global.titulowm2 = `onyx - Bot`
+global.igfg = 'onyx - Bot';
 global.wait = '*[ ⏳ ] Cargando...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -64,11 +64,11 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nThe Mystic - Bot`;
-global.gt = 'The Mystic - Bot';
-global.mysticbot = 'The Mystic - Bot';
-global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
-global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
+global.wm2 = `${dia} ${fecha}\nOnyx - Bot`;
+global.gt = 'onyx - Bot';
+global.mysticbot = 'onyx - Bot';
+global.md = 'https://github.com/kennnn/onyx-Bot-MD';
+global.mysticbot = 'https://github.com/kennnn/onyx-Bot-MD';
 global.waitt = '*[ ⏳ ] Cargando...*';
 global.waittt = '*[ ⏳ ] Cargando...*';
 global.waitttt = '*[ ⏳ ] Cargando...*';
