@@ -122,8 +122,8 @@ const question = (texto) => new Promise((resolver) => rl.question(texto, resolve
 
 const connectionOptions = {
         logger: pino({ level: 'silent' }),
-        printQRInTerminal: !pairingCode, 
-        mobile: useMobile, 
+        printQRInTerminal: false, 
+        mobile: false, 
         browser: ['Chrome (Linux)', '', ''],
         auth: {
             creds: state.creds,
